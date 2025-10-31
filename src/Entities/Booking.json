@@ -1,0 +1,62 @@
+{
+  "name": "Booking",
+  "type": "object",
+  "properties": {
+    "experience_id": {
+      "type": "string",
+      "description": "Reference to Experience entity"
+    },
+    "slot_id": {
+      "type": "string",
+      "description": "Reference to Slot entity"
+    },
+    "customer_name": {
+      "type": "string",
+      "description": "Customer full name"
+    },
+    "customer_email": {
+      "type": "string",
+      "format": "email",
+      "description": "Customer email address"
+    },
+    "customer_phone": {
+      "type": "string",
+      "description": "Customer phone number"
+    },
+    "base_amount": {
+      "type": "number",
+      "description": "Base price before discount"
+    },
+    "discount_amount": {
+      "type": "number",
+      "default": 0,
+      "description": "Discount applied"
+    },
+    "total_amount": {
+      "type": "number",
+      "description": "Final amount after discount"
+    },
+    "promo_code": {
+      "type": "string",
+      "description": "Promo code used (if any)"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "pending",
+        "cancelled"
+      ],
+      "default": "confirmed",
+      "description": "Booking status"
+    }
+  },
+  "required": [
+    "experience_id",
+    "slot_id",
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "total_amount"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Slot",
+  "type": "object",
+  "properties": {
+    "experience_id": {
+      "type": "string",
+      "description": "Reference to Experience entity"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Slot date"
+    },
+    "time": {
+      "type": "string",
+      "description": "Slot time (e.g., '10:00 AM')"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether the slot is available for booking"
+    }
+  },
+  "required": [
+    "experience_id",
+    "date",
+    "time"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Experience",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Experience title"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location of the experience"
+    },
+    "price": {
+      "type": "number",
+      "description": "Base price in currency"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the experience"
+    },
+    "image": {
+      "type": "string",
+      "description": "Image URL"
+    },
+    "duration": {
+      "type": "string",
+      "description": "Duration of the experience (e.g., '3 hours', 'Full day')"
+    }
+  },
+  "required": [
+    "title",
+    "location",
+    "price",
+    "description",
+    "image"
+  ]
+}
