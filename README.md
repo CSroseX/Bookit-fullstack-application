@@ -49,11 +49,11 @@ A fullstack booking application built with React and Vite, allowing users to bro
 
 <!-- Add screenshots here -->
 
-![Home Page](screenshots\home_page.png)
+![Home Page](screenshots/home_page.png)
 
-![Experience Details](screenshots\profile.png)
+![Profile](screenshots/profile.png)
 
-![Booking Confirmation](screenshots\review.png)
+![Reviews](screenshots/review.png)
 
-![Booking Confirmation](screenshots\bookingDetails.png)
+![Booking Details](screenshots/bookingDetails.png)
 
