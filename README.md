@@ -42,7 +42,7 @@ Bookit is a comprehensive fullstack booking platform designed to streamline the 
 
 ## Technical Stack Details
 
-- **Frontend Framework**: React 18.2 with modern hooks and concurrent features
+- **Frontend Framework**: React 18+ with modern hooks and concurrent features
 - **Build Tool**: Vite for lightning-fast HMR and optimized production builds
 - **Styling**: Tailwind CSS with PostCSS for utility-first responsive design
 - **UI Components**: Radix UI primitives with shadcn/ui component library
